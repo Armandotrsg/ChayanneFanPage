@@ -1,0 +1,82 @@
+* {
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+body {
+    background-color: violet;
+    background-image: url('../img/chayanne.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+
+h2 {
+    color: purple;
+}
+
+.rainbow-text1 {
+    background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow-text-animation 10s ease infinite;
+    background-color: #000000; 
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.img-aside {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border: 6px inset red;
+    animation: border-animation 2s ease infinite;  
+}
+
+.img-border {
+    border: 6px inset red;
+    animation: border-animation2 2s ease infinite;
+}
+
+.text-song {
+    color: red;
+    font-size: 100%;
+}
+
+.img-song {
+    height: 150px;
+    width: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .img-song {
+        height: 250px;
+        width: auto;
+    }
+
+    .text-song {
+        font-size: 150%;
+    }
+}
+    
+
+@keyframes border-animation2 {
+    0% {border-color: purple}
+    50% {border-color: green}
+    100% {border-color: purple}
+}
+
+@keyframes border-animation {
+    0% {border-color: red}
+    50% {border-color: blue}
+    100% {border-color: red}
+}
+
+@keyframes rainbow-text-animation {
+    0% {background-position: 0% 50%}
+    50% {background-position: 100% 50%}
+    100% {background-position: 0% 50%}
+}

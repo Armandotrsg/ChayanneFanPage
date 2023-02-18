@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Página Retro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="container">
+      <div class="row">
+        <div class="col justify-content-center align-items-center">
+          <h1 class="text-center rainbow-text1">CHAYANNE FAN PAGE</h1>
+        </div>
+      </div>
+    </header>
+    <section class="container">
+      <div class="row">
+        <aside class="col-md-3">
+          <div class="row">
+            <div class="col-4 col-md-12">
+              <picture>
+                <img src="img/Chayanne1.jpg" alt="Chayanne" class="img-aside">
+              </picture>
+            </div>
+            <div class="col-4 col-md-12">
+              <picture>
+                <img src="img/Chayanne2.jpg" alt="Chayanne" class="img-aside">
+              </picture>
+            </div>
+            <div class="col-4 col-md-12">
+              <picture>
+                <img src="img/Chayanne3.jpg" alt="Chayanne" class="img-aside">
+              </picture>
+            </div>
+          </div>
+        </aside>
+        <section class="col-md-9">
+          <section class="row">
+            <div class="col-10 col-md-7 order-last order-md-first">
+              <h2 class="mt-4 text-start rainbow-text2">Biografía</h2>
+              <p class="text-justify">Chayanne es un cantante, actor y productor puertorriqueño. Nació en San Juan, Puerto Rico, el 28 de abril de 1968. Es hijo de la cantante puertorriqueña Wilma León y del cantante y actor puertorriqueño José Manuel Figueroa. Su nombre artístico proviene de su abuelo materno, quien era un cantante de ópera. Chayanne es considerado ser el padre de medio México y se encuentra en nuestros corazones ❤️ </p>
+            </div>
+            <div class="col-12 col-md-5 order-first order-md-last">
+              <picture><img src="img/chayanne-torero.gif" alt="Chayanne Torero" class="mt-5 img-fluid img-border"></picture>
+            </div>
+          </section>
+          <section>
+            <div class="row">
+              <div class="col-12 my-5 justify-content-center align-items-center">
+                <h2 class="text-end">MEJORES CANCIONES DE CHAYANNE</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4">
+                <div class="row">
+                  <div class="col-12">
+                    <picture><img src="img/Torero.jpg" alt="Torero" class="img-fluid img-border img-song"></picture>
+                  </div>
+                  <div class="col-12">
+                    <h3 class="text-center text-song">Torero</h3>
+                  </div>
+                  <div class="col-12 d-flex justify-content-center align-items-center">
+                    <audio id="Torero">
+                      <source src="audio/Torero.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="btn btn-success bi bi-play-fill d-flex" style="font-size: 30px;" onclick="toggleAudio(this,'Torero')"></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="row">
+                  <div class="col-12">
+                    <picture><img src="img/UnSigloSinTi.jpeg" alt="Un Siglo Sin Ti" class="img-fluid img-border img-song"></picture>
+                  </div>
+                  <div class="col-12">
+                    <h3 class="text-center text-song">Un Siglo Sin Ti</h3>
+                  </div>
+                  <div class="col-12 d-flex justify-content-center align-items-center">
+                    <audio id="UnSigloSinTi">
+                      <source src="audio/UnSigloSinTi.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="btn btn-success bi bi-play-fill d-flex" style="font-size: 30px;" onclick="toggleAudio(this,'UnSigloSinTi')"></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="row">
+                  <div class="col-12">
+                    <picture><img src="img/MeEnamoreDeTi.jpeg" alt="Me Enamoré de Ti" class="img-fluid img-border img-song"></picture>
+                  </div>
+                  <div class="col-12">
+                    <h3 class="text-center text-song">Me Enamoré de Ti</h3>
+                  </div>
+                  <div class="col-12 d-flex justify-content-center align-items-center">
+                    <audio id="MeEnamoreDeTi">
+                      <source src="audio/MeEnamoreDeTi.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="btn btn-success bi bi-play-fill d-flex" style="font-size: 30px;" onclick="toggleAudio(this,'MeEnamoreDeTi')"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
+    </section>
+
+    <script src="js/audio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
