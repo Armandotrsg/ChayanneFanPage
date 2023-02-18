@@ -1,6 +1,7 @@
 * {
     color: white;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    scroll-behavior: smooth;
 }
 body {
     background-color: violet;
@@ -49,6 +50,18 @@ h2 {
 .img-song {
     height: 150px;
     width: auto;
+}
+
+.footer {
+    margin-top: 1.5rem;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer h2 {
+    color: white;
 }
 
 @media screen and (min-width: 768px) {
