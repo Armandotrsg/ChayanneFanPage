@@ -1,7 +1,6 @@
 * {
     color: white;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    scroll-behavior: smooth;
 }
 body {
     background-color: violet;
@@ -11,6 +10,11 @@ body {
     background-size: cover;
     scroll-behavior: smooth;
 }
+
+/* html {
+    cursor: url('../img/ChayanneChiquito.png'), auto;
+    scroll-behavior: smooth;
+} */
 
 h2 {
     color: purple;
