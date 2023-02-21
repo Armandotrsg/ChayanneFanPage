@@ -72,6 +72,9 @@ h2 {
     color: white;
 }
     
+.bi-chat-dots {
+    color: purple;
+}
 
 @keyframes border-animation2 {
     0% {border-color: purple}
