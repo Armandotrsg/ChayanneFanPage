@@ -76,6 +76,12 @@ h2 {
     color: purple;
 }
 
+.comment-text {
+    margin-top: 0.5rem;
+    text-indent: 1em;
+    font-size: 105%;
+}
+
 @keyframes border-animation2 {
     0% {border-color: purple}
     50% {border-color: green}
